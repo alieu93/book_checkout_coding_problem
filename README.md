@@ -1,7 +1,7 @@
 # Book Checkout Coding Problem
 Java solution for a coding problem for the purchase and checkout of a bookshop
 
-#Assumptions:
+# Assumptions:
 
 - I am assuming that the class (CheckoutService) takes in a list of books
 - The discount prices are stored elsewhere (Database, external services, etc) as to replicate this type of architecture. As a result, I have created DiscountService for this purpose. This allows it to be extendable for future types of discounts to be added to the code rather than hardcoding the values.
